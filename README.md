@@ -8,6 +8,9 @@ Each script is organized in its own folder with dedicated dependencies:
 
 ```
 simple_scripts/
+├── downloads_cleaner/   # Organize downloads into categorized folders
+│   ├── downloads_cleaner.py
+│   └── README.md
 ├── keep_awake/          # Prevent screen timeout during recordings
 │   ├── keep_awake.py
 │   └── requirements.txt
@@ -17,6 +20,11 @@ simple_scripts/
 ```
 
 ## Available Scripts
+
+### downloads_cleaner
+Organizes Downloads folder by moving files into categorized subfolders (3D_Models, Images, Documents, etc.) - perfect for managing STL files and download clutter.
+
+[View documentation](downloads_cleaner/)
 
 ### keep_awake
 Prevents screen timeout by simulating minimal mouse movement - perfect for screen recordings, presentations, or long-running tasks.
@@ -35,11 +43,15 @@ When adding a new script:
 
 ## Installation
 
-Navigate to the specific script folder and install its dependencies:
+Some scripts have no dependencies (downloads_cleaner), others require installation:
 
 ```bash
+# For scripts with requirements.txt
 cd keep_awake
 pip install -r requirements.txt
+
+# For scripts without dependencies (downloads_cleaner)
+# Just run with python - no installation needed
 ```
 
 ## Categories (Future Organization)
