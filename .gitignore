@@ -1,2 +1,7 @@
 # Ignore AI assistant markdown files (CLAUDE.md, GEMINI.md, etc.)
+# But allow standard documentation files
 [A-Z]*.md
+!README.md
+!LICENSE.md
+!CHANGELOG.md
+!CONTRIBUTING.md
