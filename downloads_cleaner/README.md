@@ -1,6 +1,6 @@
 # Downloads Cleaner
 
-Organizes your Downloads folder by automatically moving files into categorized subfolders - perfect for managing clutter from 3D printing files (STLs), documents, images, and more.
+Organizes your Downloads folder by automatically moving files into categorized subfolders - perfect for managing clutter from 3D printing files (STL, GCODE), documents, images, and more.
 
 ## Installation
 
